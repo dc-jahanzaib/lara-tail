@@ -18,8 +18,8 @@
                     </svg>
                 </button>
                 <a href="#" class="text-xl font-bold flex items-center lg:ml-2.5">
-                    <img src="/images/logo.svg" class="h-6 mr-2" alt="Windster Logo">
-                    <span class="self-center whitespace-nowrap">Windster</span>
+                    <img src="{{ asset('backend/imgs/logo.png') }}" class="h-6 mr-2" alt="Windster Logo">
+                    <span class="self-center whitespace-nowrap">Boder Land</span>
                 </a>
                 <form action="#" method="GET" class="hidden lg:block lg:pl-32">
                     <label for="topbar-search" class="sr-only">Search</label>
@@ -33,7 +33,7 @@
                             </svg>
                         </div>
                         <input type="text" name="email" id="topbar-search"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-sky-600 focus:border-sky-600 block w-full pl-10 p-2.5"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-gray-600 focus:border-gray-600 block w-full pl-10 p-2.5"
                             placeholder="Search">
                     </div>
                 </form>
@@ -50,7 +50,7 @@
                             clip-rule="evenodd"></path>
                     </svg>
                 </button>
-                <div class="hidden lg:flex items-center">
+                {{-- <div class="hidden lg:flex items-center">
                     <span class="text-base font-normal text-gray-500 mr-5">Open source ❤️</span>
                     <div class="-mb-1">
                         <a class="github-button" href="https://github.com/themesberg/windster-tailwind-css-dashboard"
@@ -58,9 +58,8 @@
                             data-size="large" data-show-count="true"
                             aria-label="Star themesberg/windster-tailwind-css-dashboard on GitHub">Star</a>
                     </div>
-                </div>
-                <a href="#"
-                    class="hidden sm:inline-flex ml-5 text-white bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-sky-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center mr-3">
+                </div> --}}
+                <a href="#" class="hidden sm:inline-flex ml-5 text-white bg-gray-600 hover:bg-gray-700 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center items-center mr-3">
                     <svg class="svg-inline--fa fa-gem -ml-1 mr-2 h-4 w-4" aria-hidden="true" focusable="false"
                         data-prefix="fas" data-icon="gem" role="img" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512">

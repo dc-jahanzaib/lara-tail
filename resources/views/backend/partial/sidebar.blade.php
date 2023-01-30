@@ -18,7 +18,7 @@
                                     </svg>
                                 </div>
                                 <input type="text" name="email" id="mobile-search"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-sky-600 focus:ring-sky-600 block w-full pl-10 p-2.5"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-600 focus:ring-gray-600 block w-full pl-10 p-2.5"
                                     placeholder="Search">
                             </div>
                         </form>
